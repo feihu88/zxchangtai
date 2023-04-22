@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+.admin_page_box_botton
+{
+    /* border: 10px solid red; */
+    background-color:rgb(245, 245, 250);  
+    height: 150px;
+    position: absolute;
+    left: 200px;
+    top: 870px;
+    width: 1700px;
+   
+
+}
+div.box_admin_admin-indexpage_button
+{
+    /* border: 1px solid red; */
+    color: black;
+    margin-bottom: 50px;    
+    text-align: center ;
+    line-height: 200px;
+   
+
+}

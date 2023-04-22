@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+
+.sub_account_title  {
+    /* border: 1px solid red; */
+    /* border-color: blueviolet; */
+    /* height: 100px; */
+    width: 1000px;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(103, 106, 156);    
+}
+
+span.iconfont.icon-shouye{
+    font-size: 20px;
+    color: rgb(103, 106, 156);
+}
+.sub_account_page_body_show{
+    border: 1px solid rgb(238, 238, 238);
+    border-color: blueviolet;
+    width: 1600px;
+    height: 800px;
+    position: absolute;
+    top: 220px;
+    left: 200px;
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(103, 106, 109);
+    padding-bottom: 5px;
+}
+
+/* 关键字查询               容器 */
+div.sub_account_search_key{
+    border: 1px solid rgb(238, 238, 238);
+    border-color: rgb(238, 238, 238);
+    background-color: rgb(238, 238, 238) ;
+    text-align: left;
+    color: black;
+    /* padding:0  20px; */
+    padding-left: 25px;
+    position: absolute;
+    left: 220px;
+    top: 160px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+
+
+}
+
+input.sub_account_input_search_key{
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid red;
+    Border:none;
+    Outline:none;
+    /* float: left; */
+    line-height: 20px;
+    position: absolute;
+    left: 240px;
+    top: 160px;
+    /* font-size: 18px; */
+
+}
+input.submit {
+    background-color: rgb(0, 170, 255);
+    padding: 3px 15px;
+    color: white;
+}
+
+input.sub_account_nonever_pay_checkbox{
+    margin-left: 30px;
+    /* margin-right: 5px; */
+    font-size: 18px;
+}
+
+span.sub_account_nonever_pay_checkbox_text{
+    /* font-family: "\9ed1\4f53"; */
+    font-weight: bold;
+    font-size: 16px;
+    /* color: red; */
+}
+
+div.sub_account_body_excl_data_table{
+    clear: both;
+    /* border: 1px solid rgb(43, 45, 40); */
+    border: 2px solid red;
+    position: absolute;
+    top: 0px;
+    left: 0; 
+    padding-bottom: 5px   
+    
+}
+
+
+td{
+    border-color: blueviolet;
+    border: 2px 
+    margin: 10px;
+    padding: 0 20px;
+    color: black;  
+    /* background-color: rgb(249, 249, 249); */
+    
+}
+
+
+
+ .submit:hover {
+    background-color: rgb(0, 160, 240);
+}
+.sub_account_input_search_key{
+    /* background-color: rgb(0, 160, 240); */
+}

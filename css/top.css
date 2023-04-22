@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.admin-top{
+    /* border: 1px solid red; */
+    height:80px ;
+    width: 100%;
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    /* z-index: -10; */
+    /* position: relative; */
+}
+
+.box-img{
+    /* z-index: -11; */
+
+}
+
+.admin-logo img{ 
+    height: 80px;
+    /* float: left; */
+    position: absolute;
+    top: 0;
+    margin-left: 50px;
+}
+
+.username-info{
+        position: absolute;
+        top: 0;
+        right: 0;        
+        width: 300px;
+        margin-right: 150px;
+        line-height: 80px;
+}
+
+.iconfont.icon-touxiang{
+    /* clear: both; */
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 83, 255);
+    float: left;
+ }
+
+ /* 公司名称 */
+.username-info-userinfo{
+    float: left;
+    color: rgb(16, 8, 93);
+    /* border: 1px solid red; */
+    font-size: 20px;
+    overflow: hidden;
+}
+
+
+

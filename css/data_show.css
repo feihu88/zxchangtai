@@ -1,0 +1,39 @@
+/*                 数据视频区             */
+div.box_admin_date-list{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    color: black;
+    margin-left: 40px;
+    height: 550px;
+    width: 1500px;  
+    border: 1px solid red;
+    font-size: 20px;
+}
+
+/*     左边刻度      */
+div.box_admin_page_data_list_left{
+    border: 1px solid green;
+    width: 50px;
+    height: 500px;
+    clear: both;
+    float: left;    
+}
+
+/* 中间容器 数据显示区   */
+div.box_admin_page_data_list_body{
+    border: 1px solid blue;
+    float: left;   
+    width: 1446px;
+    height: 500px; 
+    margin-right: 0px;
+}
+
+/* 底部刻度 */
+div.box_admin_page_data_list_buttom{
+    border: 1px solid rgb(43, 43, 3);
+    float: left;   
+    width: 1500px;
+    height: 46px; 
+    /* margin-right: 0px; */
+}

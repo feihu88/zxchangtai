@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    border: 0;
+    padding: 0;
+
+}
+body{
+    height: 900px;
+}
+/* logo */
+.login-logo  {   
+    /* border: 5px solid red; */
+    width: 130px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 150px;   
+    background-image: url(/icon/logo.jpg);
+    background-size: auto;
+
+    
+}
+
+.logo-icon{
+    width: 130px;
+    /* height: 100px; */
+    /* margin-left: 300px; */
+}
+/* logo 知能管理系统 文字 */
+.login-centent{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(201, 211, 221);
+    font-size: 35px;
+}
+/* 中间FROM表格 */
+.login-in-form{
+    border: 1px solid rgb(79, 96, 126);
+    background-color: rgb(79, 96, 126,0.7);
+    border-radius: 25px;
+    width: 450px;
+    height:220px;
+    color: brown;
+    margin: 0 auto;
+    margin-top: 50px;    
+    /* opacity:0.9;   */
+    padding: 40px;
+}
+/* ///////////          用户名密码区        */
+.box-input-name{
+    background-color: white;
+    /* border: 1px solid red; */
+    border-radius: 5px; 
+}
+.input-name{
+    /* border: 1px solid red; */
+    padding: 10px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 378px;
+    outline: none;
+    opacity:1;  /* ---- 没有起作用 ----  */
+}
+
+.iconfont.icon-touxiang{
+    margin-top: 10px;
+    font-size: 35px;
+    margin-right: 10px;
+    line-height: 35px;
+    margin-bottom: 0px;
+    color: rgb(0, 84, 255);
+    /* border: 1px solid black; */
+    border-right: 1px solid rgb(154, 154, 154);
+
+}
+
+
+
+.box-password{
+    margin-top: 25px;
+    background-color: white;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+
+}
+.input-password{
+
+    /* border: 1px solid red; */
+    padding: 10px;
+    font-size: 18px;
+    width: 378px;
+    outline: none;
+    opacity:1;  
+}
+
+.iconfont.icon-suozi{
+    font-size: 35px;
+    margin-right: 10px;
+    color: rgb(0, 84, 255);
+    border-right: 1px solid rgb(154, 154, 154);
+}
+.box-button{
+    margin-top: 25px;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    background-color: rgb(37, 116, 255);
+}
+.input-button{
+    /* margin-top: 25px; */
+    background-color: rgb(37, 116, 255);
+    border-radius: 5px;
+    padding-left: 200px;
+    /* padding; */
+    line-height: 40px;
+    color: aliceblue;
+    font-size: 18px;
+}
+.input-button:hover{
+    cursor: pointer;
+}
+
+/* 忘记密码文字 */
+.box-forget-password  {
+    margin-top: 25px;
+    float: right;
+    /* color: white; */
+    color: white;
+}
+
+.box-forget-password a.forget-password{
+    color: white;
+    /* background-color: aliceblue; */
+}
+
+/* 背景图 */
+.login-blackground-img{
+    background-image: url(/img/login.jpg);
+     position: absolute;         */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* margin-top: 0px;  */
+    margin-bottom: 0px; 
+    background-size: 100% auto;
+    /* background-repeat: no-repeat; */
+    z-index: -10; 
+}
